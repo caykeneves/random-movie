@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Random Movie</title>
+	<style>
+	body {
+		font-family: Arial;
+		text-align: center;
+	}
+	.wrapper {
+		max-width: 768px;
+		margin: 3em auto;
+	}
+	#btnSorteio {
+		background: lightblue;
+		font-size: 14px;
+		width: 140px;
+		background: #598cc1;
+		border: 0;
+		cursor: pointer;
+		height: 50px;
+		color: #fff;
+		border-radius: 5px;
+		border-bottom: 1px solid black;
+	}
+	#nomeFilme {
+		padding-bottom: 5px;
+    border-bottom: 5px solid #42c17a;
+    display: inline-block;
+    color: #42c17a;
+    transition: all .3s;
+	}
+	p {
+		margin-top: 30px;
+	}
+	</style>
+</head>
+<body>
+	
+	<div class="wrapper">
+		<h2>Random Movie</h2>
+		<button id="btnSorteio">Sortear Filme</button>
+		<p>O filme escolhido é:</p>
+		<h2 id="nomeFilme"></h2>
+	</div>
+
+	<script src="random-movie.js"></script>
+</body>
+</html>
