@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 	<title>Random Movie</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 	<style>
+	* {
+		font-weight: lighter;
+	}
 	body {
-		font-family: Arial;
+		font-family: 'Roboto', Arial, sans-serif;
+		font-weight: lighter;
 		text-align: center;
+		background: #f2f2f2;
 	}
 	.wrapper {
 		max-width: 768px;
 		margin: 3em auto;
+		padding: 0 15px;
 	}
 	#btnSorteio {
 		background: lightblue;
@@ -26,13 +34,19 @@
 	}
 	#nomeFilme {
 		padding-bottom: 5px;
-    border-bottom: 5px solid #42c17a;
+    border-bottom: 2px solid #42c17a;
     display: inline-block;
     color: #42c17a;
     transition: all .3s;
 	}
 	p {
 		margin-top: 30px;
+	}
+
+	@media(max-width: 520px) {
+		#btnSorteio {
+			width: 100%;
+		}
 	}
 	</style>
 </head>
@@ -42,7 +56,7 @@
 		<h2>Random Movie</h2>
 		<button id="btnSorteio">Sortear Filme</button>
 		<p>O filme escolhido é:</p>
-		<h2 id="nomeFilme"></h2>
+		<h1 id="nomeFilme"></h1>
 	</div>
 
 	<script src="random-movie.js"></script>
