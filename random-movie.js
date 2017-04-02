@@ -43,7 +43,7 @@
     "Indie Game - The Movie",
     "Interestelar",
     "Invictus",
-    "O Grande Mestre",
+    "O Grande Mestre #netflix",
     "Kill Bill - Volume 1",
     "La La Land",
     "Lady Vingança",
@@ -125,7 +125,8 @@
     "Watchmen",
     "Livre",
     "Guerra Mundial Z",
-    "Zodíaco"
+    "Zodíaco",
+    "Jackie"
   ];
 
   var randomMovie = Math.floor(Math.random() * movieList.length) + 1;
