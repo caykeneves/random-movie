@@ -28,7 +28,6 @@
     "Brilho Eterno de uma Mente sem lembranças",
     "Evereste",
     "Ex-Machina",
-    "Um Limite entre Nós",
     "O Voo",
     "Florence: Quem é essa mulher",
     "Por uns Dólares a Mais",
