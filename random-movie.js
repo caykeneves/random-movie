@@ -123,7 +123,8 @@
     "Watchmen - #netflix",
     "Guerra Mundial Z",
     "Zodíaco - #netflix",
-    "Jackie"
+    "Jackie",
+    "O Senhor das Moscas"
   ];
 
   var randomMovie = Math.floor(Math.random() * movieList.length) + 1;
