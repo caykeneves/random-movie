@@ -6,6 +6,8 @@
     "Laranja Mecânica",
     "Por um punhado de dólares",
     "Depois de Lúcia",
+    "Bobby",
+    "Deep Web",
     "Amadeus",
     "O Fabuloso Destino de Amélie Poulain",
     "Argo",
