@@ -8,6 +8,8 @@
 	<style>
 	* {
 		font-weight: lighter;
+		margin: 0;
+		padding: 0;
 	}
 	body {
 		font-family: 'Roboto', Arial, sans-serif;
@@ -32,12 +34,16 @@
 		border-radius: 5px;
 		border-bottom: 1px solid black;
 	}
+	#btnSorteio:focus {
+		outline: 0;
+	}
+	#btnSorteio:active {
+		transform: scale(.95)
+	}
 	#nomeFilme {
-		padding-bottom: 5px;
-    border-bottom: 2px solid #42c17a;
     display: inline-block;
-    color: #42c17a;
-    transition: all .3s;
+    color: #f6ff6b;
+    font-weight: bold;
 	}
 	p {
 		margin-top: 30px;
@@ -53,13 +59,14 @@
 <body>
 	
 	<div class="wrapper">
-		<h2>Random Movie</h2>
+		<h2 style="margin-bottom: 20px;">Random Movie</h2>
 		<button id="btnSorteio">Sortear Filme</button>
 		<p>O filme escolhido é:</p>
-		<h1 id="nomeFilme"></h1>
+		<h1 id="nomeFilme" style="margin-bottom: 20px"></h1>
+		<div id="movieThumb"></div>
 	</div>
 
 	<script src="movies.js"></script>
-	<script src="random-movie.js"></script>
+	<!--<script src="random-movie.js"></script>-->
 </body>
 </html>
