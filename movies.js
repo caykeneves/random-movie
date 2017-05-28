@@ -127,7 +127,9 @@ var moviesList = [
  movie122 = { name: "O Senhor das Moscas", image: "images/senhor-das-moscas.jpg"},
  movie123 = { name: "Bobby", image: "images/bobby.jpg"},
  movie124 = { name: "Deep Web", image: "images/deep-web.jpg"},
- movie125 = { name: "12 de Junho de 93 - O Dia da Paixão Palmeirense", image: "images/paixao-palmeirense.jpg"}
+ movie125 = { name: "12 de Junho de 93 - O Dia da Paixão Palmeirense", image: "images/paixao-palmeirense.jpg"},
+ movie126 = { name: "A Torre Negra", image: "images/torre-negra.jpg"},
+ movie127 = { name: "Pablo Escobar, Anjo ou Demônio", image: "images/pablo-escobar.jpg"}
 
 ]
 
