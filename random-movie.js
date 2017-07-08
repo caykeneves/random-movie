@@ -82,7 +82,7 @@
     "Rain Man",
     "Requiem for the American Dream - #netflix",
     "Se7en",
-    "Senna #netflix",
+    // "Senna #netflix",
     "Sicário #netflix",
     "Silence",
     "Sin City",
