@@ -6,57 +6,65 @@
 	<title>Random Movie</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 	<style>
-	* {
-		font-weight: lighter;
-		margin: 0;
-		padding: 0;
-	}
-	body {
-		font-family: 'Roboto', Arial, sans-serif;
-		font-weight: lighter;
-		text-align: center;
-		color: #fff;
-		background: #000;
-	}
-	.wrapper {
-		max-width: 768px;
-		margin: 3em auto;
-		padding: 0 15px;
-	}
-	#btnSorteio {
-		font-size: 14px;
-		width: 140px;
-		background: #598cc1;
-		border: 0;
-		cursor: pointer;
-		height: 50px;
-		color: #fff;
-		border-radius: 5px;
-		border-bottom: 1px solid black;
-	}
-	#btnSorteio:focus {
-		outline: 0;
-	}
-	#btnSorteio:active {
-		transform: scale(.95)
-	}
-	#nomeFilme {
-    display: inline-block;
-    color: #f6ff6b;
-    font-weight: bold;
-	}
-	p {
-		margin-top: 30px;
-	}
-	#movieThumb img {
-		width: 145px;
-	}
-
-	@media(max-width: 520px) {
-		#btnSorteio {
-			width: 100%;
+		* {
+			font-weight: lighter;
+			margin: 0;
+			padding: 0;
 		}
-	}
+		body {
+			font-family: 'Roboto', Arial, sans-serif;
+			font-weight: lighter;
+			text-align: center;
+			color: #fff;
+			background: #000;
+		}
+		.wrapper {
+			max-width: 768px;
+			margin: 3em auto;
+			padding: 0 15px;
+		}
+		#btnSorteio {
+			font-size: 14px;
+			width: 140px;
+			background: #598cc1;
+			border: 0;
+			cursor: pointer;
+			height: 50px;
+			color: #fff;
+			border-radius: 5px;
+			border-bottom: 1px solid black;
+		}
+		#btnSorteio:focus {
+			outline: 0;
+		}
+		#btnSorteio:active {
+			transform: scale(.95)
+		}
+		#nomeFilme {
+			display: inline-block;
+			color: #f6ff6b;
+			font-weight: bold;
+		}
+		p {
+			margin-top: 30px;
+		}
+		#movieThumb img {
+			width: 145px;
+		}
+
+		.messages {
+			display: none;
+		}
+
+		.messages .active {
+			display: block;
+		}
+
+		@media(max-width: 520px) {
+			#btnSorteio {
+				width: 100%;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -64,9 +72,12 @@
 	<div class="wrapper">
 		<h2 style="margin-bottom: 20px;">Random Movie</h2>
 		<button id="btnSorteio">Sortear Filme</button>
-		<p>O filme escolhido é:</p>
-		<h1 id="nomeFilme" style="margin-bottom: 20px"></h1>
-		<div id="movieThumb"></div>
+		<div class="messages">
+			<p>O filme escolhido é:</p>
+			<h1 id="nomeFilme" style="margin-bottom: 20px"></h1>
+			<h3>IMDB Rating: <span id="rating"></span></h3>
+			<p>Tempo de duração: <span id="runtime"></span> minutos</p>
+		</div>
 	</div>
 
 	<script src="movies.js"></script>
