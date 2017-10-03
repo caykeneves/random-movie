@@ -1,4 +1,4 @@
-var elem = document.getElementById('nomeFilme');
+﻿var elem = document.getElementById('nomeFilme');
 var year = document.getElementById('year');
 var rating = document.getElementById("rating");
 var movieChoice; 
@@ -17,7 +17,7 @@ var moviesList = [
     "Runtime (mins)": 149,
     "Year": 1968,
     "Genres": "adventure, sci_fi",
-    "Num. Votes": 471288,
+    "Num. Votes": 471771,
     "Release Date (month/day/year)": "1968-04-02",
     "URL": "http://www.imdb.com/title/tt0062622/"
   },
@@ -35,7 +35,7 @@ var moviesList = [
     "Runtime (mins)": 120,
     "Year": 2012,
     "Genres": "biography, drama, history, thriller",
-    "Num. Votes": 489167,
+    "Num. Votes": 489508,
     "Release Date (month/day/year)": "2012-08-31",
     "URL": "http://www.imdb.com/title/tt1024648/"
   },
@@ -53,7 +53,7 @@ var moviesList = [
     "Runtime (mins)": 119,
     "Year": 2014,
     "Genres": "comedy, drama",
-    "Num. Votes": 452018,
+    "Num. Votes": 452558,
     "Release Date (month/day/year)": "2014-08-27",
     "URL": "http://www.imdb.com/title/tt2562232/"
   },
@@ -71,7 +71,7 @@ var moviesList = [
     "Runtime (mins)": 117,
     "Year": 1982,
     "Genres": "sci_fi, thriller",
-    "Num. Votes": 506927,
+    "Num. Votes": 507560,
     "Release Date (month/day/year)": "1982-06-25",
     "URL": "http://www.imdb.com/title/tt0083658/"
   },
@@ -89,7 +89,7 @@ var moviesList = [
     "Runtime (mins)": 141,
     "Year": 2006,
     "Genres": "drama, history, war",
-    "Num. Votes": 138543,
+    "Num. Votes": 138628,
     "Release Date (month/day/year)": "2006-11-15",
     "URL": "http://www.imdb.com/title/tt0498380/"
   },
@@ -107,7 +107,7 @@ var moviesList = [
     "Runtime (mins)": 103,
     "Year": 2012,
     "Genres": "drama",
-    "Num. Votes": 5049,
+    "Num. Votes": 5057,
     "Release Date (month/day/year)": "2012-05-21",
     "URL": "http://www.imdb.com/title/tt2368749/"
   },
@@ -125,7 +125,7 @@ var moviesList = [
     "Runtime (mins)": 164,
     "Year": 1968,
     "Genres": "western",
-    "Num. Votes": 237784,
+    "Num. Votes": 238005,
     "Release Date (month/day/year)": "1968-12-21",
     "URL": "http://www.imdb.com/title/tt0064116/"
   },
@@ -143,7 +143,7 @@ var moviesList = [
     "Runtime (mins)": 108,
     "Year": 2004,
     "Genres": "drama, romance, sci_fi",
-    "Num. Votes": 731917,
+    "Num. Votes": 732609,
     "Release Date (month/day/year)": "2004-03-09",
     "URL": "http://www.imdb.com/title/tt0338013/"
   },
@@ -161,7 +161,7 @@ var moviesList = [
     "Runtime (mins)": 106,
     "Year": 1997,
     "Genres": "drama, sci_fi, thriller",
-    "Num. Votes": 237024,
+    "Num. Votes": 237208,
     "Release Date (month/day/year)": "1997-09-07",
     "URL": "http://www.imdb.com/title/tt0119177/"
   },
@@ -179,7 +179,7 @@ var moviesList = [
     "Runtime (mins)": 123,
     "Year": 2014,
     "Genres": "action, adventure, sci_fi, thriller",
-    "Num. Votes": 322752,
+    "Num. Votes": 322934,
     "Release Date (month/day/year)": "2014-05-08",
     "URL": "http://www.imdb.com/title/tt0831387/"
   },
@@ -197,7 +197,7 @@ var moviesList = [
     "Runtime (mins)": 134,
     "Year": 2009,
     "Genres": "biography, drama, history, sport",
-    "Num. Votes": 131973,
+    "Num. Votes": 132060,
     "Release Date (month/day/year)": "2009-12-03",
     "URL": "http://www.imdb.com/title/tt1057500/"
   },
@@ -215,7 +215,7 @@ var moviesList = [
     "Runtime (mins)": 136,
     "Year": 2005,
     "Genres": "biography, drama, music, romance",
-    "Num. Votes": 198303,
+    "Num. Votes": 198403,
     "Release Date (month/day/year)": "2005-09-04",
     "URL": "http://www.imdb.com/title/tt0358273/"
   },
@@ -233,7 +233,7 @@ var moviesList = [
     "Runtime (mins)": 101,
     "Year": 2006,
     "Genres": "comedy, drama",
-    "Num. Votes": 379500,
+    "Num. Votes": 379760,
     "Release Date (month/day/year)": "2006-01-20",
     "URL": "http://www.imdb.com/title/tt0449059/"
   },
@@ -251,7 +251,7 @@ var moviesList = [
     "Runtime (mins)": 128,
     "Year": 1988,
     "Genres": "crime, drama, history, mystery, thriller",
-    "Num. Votes": 70237,
+    "Num. Votes": 70291,
     "Release Date (month/day/year)": "1988-12-02",
     "URL": "http://www.imdb.com/title/tt0095647/"
   },
@@ -269,7 +269,7 @@ var moviesList = [
     "Runtime (mins)": 133,
     "Year": 2011,
     "Genres": "biography, drama, sport",
-    "Num. Votes": 301351,
+    "Num. Votes": 301538,
     "Release Date (month/day/year)": "2011-09-09",
     "URL": "http://www.imdb.com/title/tt1210166/"
   },
@@ -287,7 +287,7 @@ var moviesList = [
     "Runtime (mins)": 141,
     "Year": 2009,
     "Genres": "drama, fantasy, romance, sci_fi",
-    "Num. Votes": 171776,
+    "Num. Votes": 171996,
     "Release Date (month/day/year)": "2009-09-11",
     "URL": "http://www.imdb.com/title/tt0485947/"
   },
@@ -305,7 +305,7 @@ var moviesList = [
     "Runtime (mins)": 164,
     "Year": 2005,
     "Genres": "crime, drama, history, thriller",
-    "Num. Votes": 185734,
+    "Num. Votes": 185835,
     "Release Date (month/day/year)": "2005-12-23",
     "URL": "http://www.imdb.com/title/tt0408306/"
   },
@@ -323,7 +323,7 @@ var moviesList = [
     "Runtime (mins)": 136,
     "Year": 2012,
     "Genres": "action, adventure",
-    "Num. Votes": 483276,
+    "Num. Votes": 483564,
     "Release Date (month/day/year)": "2012-06-13",
     "URL": "http://www.imdb.com/title/tt0948470/"
   },
@@ -341,7 +341,7 @@ var moviesList = [
     "Runtime (mins)": 146,
     "Year": 1980,
     "Genres": "drama, horror",
-    "Num. Votes": 675604,
+    "Num. Votes": 676362,
     "Release Date (month/day/year)": "1980-05-23",
     "URL": "http://www.imdb.com/title/tt0081505/"
   },
@@ -359,7 +359,7 @@ var moviesList = [
     "Runtime (mins)": 140,
     "Year": 2012,
     "Genres": "crime, drama, thriller",
-    "Num. Votes": 204507,
+    "Num. Votes": 204696,
     "Release Date (month/day/year)": "2012-09-07",
     "URL": "http://www.imdb.com/title/tt1817273/"
   },
@@ -377,7 +377,7 @@ var moviesList = [
     "Runtime (mins)": 144,
     "Year": 2012,
     "Genres": "drama",
-    "Num. Votes": 115363,
+    "Num. Votes": 115481,
     "Release Date (month/day/year)": "2012-09-01",
     "URL": "http://www.imdb.com/title/tt1560747/"
   },
@@ -395,7 +395,7 @@ var moviesList = [
     "Runtime (mins)": 175,
     "Year": 1972,
     "Genres": "crime, drama",
-    "Num. Votes": 1263773,
+    "Num. Votes": 1264985,
     "Release Date (month/day/year)": "1972-03-14",
     "URL": "http://www.imdb.com/title/tt0068646/"
   },
@@ -413,7 +413,7 @@ var moviesList = [
     "Runtime (mins)": 202,
     "Year": 1974,
     "Genres": "crime, drama",
-    "Num. Votes": 870689,
+    "Num. Votes": 871587,
     "Release Date (month/day/year)": "1974-12-12",
     "URL": "http://www.imdb.com/title/tt0071562/"
   },
@@ -431,7 +431,7 @@ var moviesList = [
     "Runtime (mins)": 122,
     "Year": 2005,
     "Genres": "crime, drama, thriller",
-    "Num. Votes": 260821,
+    "Num. Votes": 260970,
     "Release Date (month/day/year)": "2005-09-16",
     "URL": "http://www.imdb.com/title/tt0399295/"
   },
@@ -449,7 +449,7 @@ var moviesList = [
     "Runtime (mins)": 118,
     "Year": 1991,
     "Genres": "crime, drama, thriller",
-    "Num. Votes": 983838,
+    "Num. Votes": 984911,
     "Release Date (month/day/year)": "1991-01-30",
     "URL": "http://www.imdb.com/title/tt0102926/"
   },
@@ -467,7 +467,7 @@ var moviesList = [
     "Runtime (mins)": 154,
     "Year": 1994,
     "Genres": "crime, drama",
-    "Num. Votes": 1448520,
+    "Num. Votes": 1449940,
     "Release Date (month/day/year)": "1994-05-21",
     "URL": "http://www.imdb.com/title/tt0110912/"
   },
@@ -485,7 +485,7 @@ var moviesList = [
     "Runtime (mins)": 129,
     "Year": 1962,
     "Genres": "crime, drama",
-    "Num. Votes": 237737,
+    "Num. Votes": 237973,
     "Release Date (month/day/year)": "1962-12-25",
     "URL": "http://www.imdb.com/title/tt0056592/"
   },
@@ -503,7 +503,7 @@ var moviesList = [
     "Runtime (mins)": 131,
     "Year": 2013,
     "Genres": "action, adventure, sci_fi",
-    "Num. Votes": 406128,
+    "Num. Votes": 406357,
     "Release Date (month/day/year)": "2013-07-01",
     "URL": "http://www.imdb.com/title/tt1663662/"
   },
@@ -521,7 +521,7 @@ var moviesList = [
     "Runtime (mins)": 99,
     "Year": 2013,
     "Genres": "documentary",
-    "Num. Votes": 6341,
+    "Num. Votes": 6344,
     "Release Date (month/day/year)": "2013-06-14",
     "URL": "http://www.imdb.com/title/tt1385956/"
   },
@@ -539,7 +539,7 @@ var moviesList = [
     "Runtime (mins)": 144,
     "Year": 2015,
     "Genres": "adventure, drama, sci_fi",
-    "Num. Votes": 574784,
+    "Num. Votes": 575558,
     "Release Date (month/day/year)": "2015-09-11",
     "URL": "http://www.imdb.com/title/tt3659388/"
   },
@@ -557,7 +557,7 @@ var moviesList = [
     "Runtime (mins)": 95,
     "Year": 1999,
     "Genres": "biography, drama, history",
-    "Num. Votes": 21471,
+    "Num. Votes": 21479,
     "Release Date (month/day/year)": "1999-06-20",
     "URL": "http://www.imdb.com/title/tt0168122/"
   },
@@ -575,7 +575,7 @@ var moviesList = [
     "Runtime (mins)": 99,
     "Year": 1964,
     "Genres": "western",
-    "Num. Votes": 161025,
+    "Num. Votes": 161136,
     "Release Date (month/day/year)": "1964-09-12",
     "URL": "http://www.imdb.com/title/tt0058461/"
   },
@@ -593,7 +593,7 @@ var moviesList = [
     "Runtime (mins)": 124,
     "Year": 2012,
     "Genres": "adventure, mystery, sci_fi",
-    "Num. Votes": 500386,
+    "Num. Votes": 500865,
     "Release Date (month/day/year)": "2012-04-11",
     "URL": "http://www.imdb.com/title/tt1446714/"
   },
@@ -611,7 +611,7 @@ var moviesList = [
     "Runtime (mins)": 109,
     "Year": 1960,
     "Genres": "horror, mystery, thriller",
-    "Num. Votes": 466065,
+    "Num. Votes": 466559,
     "Release Date (month/day/year)": "1960-06-16",
     "URL": "http://www.imdb.com/title/tt0054215/"
   },
@@ -629,7 +629,7 @@ var moviesList = [
     "Runtime (mins)": 133,
     "Year": 1988,
     "Genres": "drama",
-    "Num. Votes": 406820,
+    "Num. Votes": 407065,
     "Release Date (month/day/year)": "1988-12-12",
     "URL": "http://www.imdb.com/title/tt0095953/"
   },
@@ -646,8 +646,8 @@ var moviesList = [
     "IMDb Rating": 7,
     "Runtime (mins)": 126,
     "Year": 2013,
-    "Genres": "action, drama, sci_fi, thriller",
-    "Num. Votes": 205866,
+    "Genres": "drama, sci_fi, thriller",
+    "Num. Votes": 206097,
     "Release Date (month/day/year)": "2013-07-29",
     "URL": "http://www.imdb.com/title/tt1706620/"
   },
@@ -665,7 +665,7 @@ var moviesList = [
     "Runtime (mins)": 170,
     "Year": 1983,
     "Genres": "crime, drama",
-    "Num. Votes": 587997,
+    "Num. Votes": 588559,
     "Release Date (month/day/year)": "1983-12-01",
     "URL": "http://www.imdb.com/title/tt0086250/"
   },
@@ -683,7 +683,7 @@ var moviesList = [
     "Runtime (mins)": 127,
     "Year": 1995,
     "Genres": "crime, drama, mystery, thriller",
-    "Num. Votes": 1127663,
+    "Num. Votes": 1128782,
     "Release Date (month/day/year)": "1995-09-15",
     "URL": "http://www.imdb.com/title/tt0114369/"
   },
@@ -701,7 +701,7 @@ var moviesList = [
     "Runtime (mins)": 106,
     "Year": 2015,
     "Genres": "biography, drama, history",
-    "Num. Votes": 28113,
+    "Num. Votes": 28151,
     "Release Date (month/day/year)": "2015-09-04",
     "URL": "http://www.imdb.com/title/tt3077214/"
   },
@@ -719,7 +719,7 @@ var moviesList = [
     "Runtime (mins)": 113,
     "Year": 1976,
     "Genres": "crime, drama",
-    "Num. Votes": 559613,
+    "Num. Votes": 560188,
     "Release Date (month/day/year)": "1976-02-07",
     "URL": "http://www.imdb.com/title/tt0075314/"
   },
@@ -737,7 +737,7 @@ var moviesList = [
     "Runtime (mins)": 121,
     "Year": 1990,
     "Genres": "biography, drama",
-    "Num. Votes": 100628,
+    "Num. Votes": 100735,
     "Release Date (month/day/year)": "1990-12-12",
     "URL": "http://www.imdb.com/title/tt0099077/"
   },
@@ -755,7 +755,7 @@ var moviesList = [
     "Runtime (mins)": 161,
     "Year": 1966,
     "Genres": "western",
-    "Num. Votes": 548950,
+    "Num. Votes": 549419,
     "Release Date (month/day/year)": "1966-12-23",
     "URL": "http://www.imdb.com/title/tt0060196/"
   },
@@ -773,7 +773,7 @@ var moviesList = [
     "Runtime (mins)": 129,
     "Year": 1980,
     "Genres": "biography, drama, sport",
-    "Num. Votes": 255484,
+    "Num. Votes": 255704,
     "Release Date (month/day/year)": "1980-11-13",
     "URL": "http://www.imdb.com/title/tt0081398/"
   },
@@ -791,7 +791,7 @@ var moviesList = [
     "Runtime (mins)": 133,
     "Year": 1975,
     "Genres": "drama",
-    "Num. Votes": 740019,
+    "Num. Votes": 740688,
     "Release Date (month/day/year)": "1975-11-19",
     "URL": "http://www.imdb.com/title/tt0073486/"
   },
@@ -809,7 +809,7 @@ var moviesList = [
     "Runtime (mins)": 142,
     "Year": 1994,
     "Genres": "crime, drama",
-    "Num. Votes": 1850887,
+    "Num. Votes": 1852589,
     "Release Date (month/day/year)": "1994-09-10",
     "URL": "http://www.imdb.com/title/tt0111161/"
   },
@@ -827,7 +827,7 @@ var moviesList = [
     "Runtime (mins)": 146,
     "Year": 2011,
     "Genres": "drama, war",
-    "Num. Votes": 124657,
+    "Num. Votes": 124760,
     "Release Date (month/day/year)": "2011-12-04",
     "URL": "http://www.imdb.com/title/tt1568911/"
   },
@@ -845,7 +845,7 @@ var moviesList = [
     "Runtime (mins)": 157,
     "Year": 2007,
     "Genres": "crime, drama, history, mystery, thriller",
-    "Num. Votes": 340340,
+    "Num. Votes": 340784,
     "Release Date (month/day/year)": "2007-02-28",
     "URL": "http://www.imdb.com/title/tt0443706/"
   },
@@ -863,7 +863,7 @@ var moviesList = [
     "Runtime (mins)": 115,
     "Year": 2013,
     "Genres": "adventure, comedy, drama",
-    "Num. Votes": 97480,
+    "Num. Votes": 97560,
     "Release Date (month/day/year)": "2013-05-23",
     "URL": "http://www.imdb.com/title/tt1821549/"
   },
@@ -881,7 +881,7 @@ var moviesList = [
     "Runtime (mins)": 93,
     "Year": 2011,
     "Genres": "comedy, drama",
-    "Num. Votes": 13698,
+    "Num. Votes": 13715,
     "Release Date (month/day/year)": "2011-03-24",
     "URL": "http://www.imdb.com/title/tt1705786/"
   },
@@ -899,7 +899,7 @@ var moviesList = [
     "Runtime (mins)": 109,
     "Year": 2006,
     "Genres": "drama, sci_fi, thriller",
-    "Num. Votes": 389910,
+    "Num. Votes": 390258,
     "Release Date (month/day/year)": "2006-09-03",
     "URL": "http://www.imdb.com/title/tt0206634/"
   },
@@ -917,7 +917,7 @@ var moviesList = [
     "Runtime (mins)": 116,
     "Year": 2013,
     "Genres": "action, adventure, horror, sci_fi, thriller",
-    "Num. Votes": 504729,
+    "Num. Votes": 505130,
     "Release Date (month/day/year)": "2013-06-02",
     "URL": "http://www.imdb.com/title/tt0816711/"
   },
@@ -935,7 +935,7 @@ var moviesList = [
     "Runtime (mins)": 124,
     "Year": 2005,
     "Genres": "crime, thriller",
-    "Num. Votes": 688732,
+    "Num. Votes": 688970,
     "Release Date (month/day/year)": "2005-03-28",
     "URL": "http://www.imdb.com/title/tt0401792/"
   },
@@ -953,7 +953,7 @@ var moviesList = [
     "Runtime (mins)": 136,
     "Year": 1971,
     "Genres": "crime, drama, sci_fi",
-    "Num. Votes": 611631,
+    "Num. Votes": 612192,
     "Release Date (month/day/year)": "1971-12-19",
     "URL": "http://www.imdb.com/title/tt0066921/"
   },
@@ -971,7 +971,7 @@ var moviesList = [
     "Runtime (mins)": 134,
     "Year": 2014,
     "Genres": "action, drama, war",
-    "Num. Votes": 339608,
+    "Num. Votes": 339946,
     "Release Date (month/day/year)": "2014-10-15",
     "URL": "http://www.imdb.com/title/tt2713180/"
   },
@@ -989,7 +989,7 @@ var moviesList = [
     "Runtime (mins)": 131,
     "Year": 2008,
     "Genres": "drama, history, thriller, war",
-    "Num. Votes": 357780,
+    "Num. Votes": 358019,
     "Release Date (month/day/year)": "2008-09-04",
     "URL": "http://www.imdb.com/title/tt0887912/"
   },
@@ -1007,7 +1007,7 @@ var moviesList = [
     "Runtime (mins)": 156,
     "Year": 2015,
     "Genres": "adventure, drama, thriller, western",
-    "Num. Votes": 517737,
+    "Num. Votes": 518497,
     "Release Date (month/day/year)": "2015-12-16",
     "URL": "http://www.imdb.com/title/tt1663202/"
   },
@@ -1025,7 +1025,7 @@ var moviesList = [
     "Runtime (mins)": 121,
     "Year": 2015,
     "Genres": "action, crime, drama, mystery, thriller",
-    "Num. Votes": 254030,
+    "Num. Votes": 254556,
     "Release Date (month/day/year)": "2015-05-19",
     "URL": "http://www.imdb.com/title/tt3397884/"
   },
@@ -1043,7 +1043,7 @@ var moviesList = [
     "Runtime (mins)": 132,
     "Year": 2005,
     "Genres": "action, drama, thriller",
-    "Num. Votes": 862794,
+    "Num. Votes": 863485,
     "Release Date (month/day/year)": "2005-12-11",
     "URL": "http://www.imdb.com/title/tt0434409/"
   },
@@ -1061,7 +1061,7 @@ var moviesList = [
     "Runtime (mins)": 180,
     "Year": 2013,
     "Genres": "biography, comedy, crime, drama",
-    "Num. Votes": 888991,
+    "Num. Votes": 890123,
     "Release Date (month/day/year)": "2013-12-17",
     "URL": "http://www.imdb.com/title/tt0993846/"
   },
@@ -1079,7 +1079,7 @@ var moviesList = [
     "Runtime (mins)": 123,
     "Year": 2015,
     "Genres": "biography, crime, drama, history",
-    "Num. Votes": 139281,
+    "Num. Votes": 139455,
     "Release Date (month/day/year)": "2015-09-04",
     "URL": "http://www.imdb.com/title/tt1355683/"
   },
@@ -1097,7 +1097,7 @@ var moviesList = [
     "Runtime (mins)": 121,
     "Year": 2015,
     "Genres": "action, adventure, drama, thriller",
-    "Num. Votes": 159312,
+    "Num. Votes": 159508,
     "Release Date (month/day/year)": "2015-09-02",
     "URL": "http://www.imdb.com/title/tt2719848/"
   },
@@ -1115,7 +1115,7 @@ var moviesList = [
     "Runtime (mins)": 130,
     "Year": 2015,
     "Genres": "biography, comedy, drama, history",
-    "Num. Votes": 257383,
+    "Num. Votes": 257833,
     "Release Date (month/day/year)": "2015-11-12",
     "URL": "http://www.imdb.com/title/tt1596363/"
   },
@@ -1133,7 +1133,7 @@ var moviesList = [
     "Runtime (mins)": 142,
     "Year": 2015,
     "Genres": "drama, history, thriller",
-    "Num. Votes": 225908,
+    "Num. Votes": 226255,
     "Release Date (month/day/year)": "2015-10-04",
     "URL": "http://www.imdb.com/title/tt3682448/"
   },
@@ -1151,7 +1151,7 @@ var moviesList = [
     "Runtime (mins)": 117,
     "Year": 2015,
     "Genres": "drama, romance",
-    "Num. Votes": 98277,
+    "Num. Votes": 98441,
     "Release Date (month/day/year)": "2015-01-26",
     "URL": "http://www.imdb.com/title/tt2381111/"
   },
@@ -1169,7 +1169,7 @@ var moviesList = [
     "Runtime (mins)": 119,
     "Year": 2015,
     "Genres": "biography, drama, romance",
-    "Num. Votes": 115844,
+    "Num. Votes": 116062,
     "Release Date (month/day/year)": "2015-09-05",
     "URL": "http://www.imdb.com/title/tt0810819/"
   },
@@ -1187,7 +1187,7 @@ var moviesList = [
     "Runtime (mins)": 118,
     "Year": 2015,
     "Genres": "drama, romance",
-    "Num. Votes": 80990,
+    "Num. Votes": 81116,
     "Release Date (month/day/year)": "2015-05-17",
     "URL": "http://www.imdb.com/title/tt2402927/"
   },
@@ -1205,7 +1205,7 @@ var moviesList = [
     "Runtime (mins)": 133,
     "Year": 2015,
     "Genres": "drama, sport",
-    "Num. Votes": 181253,
+    "Num. Votes": 181504,
     "Release Date (month/day/year)": "2015-11-19",
     "URL": "http://www.imdb.com/title/tt3076658/"
   },
@@ -1223,7 +1223,7 @@ var moviesList = [
     "Runtime (mins)": 146,
     "Year": 1990,
     "Genres": "crime, drama",
-    "Num. Votes": 798012,
+    "Num. Votes": 798767,
     "Release Date (month/day/year)": "1990-09-09",
     "URL": "http://www.imdb.com/title/tt0099685/"
   },
@@ -1241,7 +1241,7 @@ var moviesList = [
     "Runtime (mins)": 128,
     "Year": 1958,
     "Genres": "mystery, romance, thriller",
-    "Num. Votes": 276492,
+    "Num. Votes": 276778,
     "Release Date (month/day/year)": "1958-05-09",
     "URL": "http://www.imdb.com/title/tt0052357/"
   },
@@ -1259,7 +1259,7 @@ var moviesList = [
     "Runtime (mins)": 132,
     "Year": 1965,
     "Genres": "western",
-    "Num. Votes": 175867,
+    "Num. Votes": 176041,
     "Release Date (month/day/year)": "1965-12-18",
     "URL": "http://www.imdb.com/title/tt0059578/"
   },
@@ -1277,7 +1277,7 @@ var moviesList = [
     "Runtime (mins)": 111,
     "Year": 2003,
     "Genres": "action, crime, thriller",
-    "Num. Votes": 802484,
+    "Num. Votes": 803294,
     "Release Date (month/day/year)": "2003-09-29",
     "URL": "http://www.imdb.com/title/tt0266697/"
   },
@@ -1295,7 +1295,7 @@ var moviesList = [
     "Runtime (mins)": 103,
     "Year": 1983,
     "Genres": "horror, sci_fi, thriller",
-    "Num. Votes": 48577,
+    "Num. Votes": 48655,
     "Release Date (month/day/year)": "1983-10-21",
     "URL": "http://www.imdb.com/title/tt0085407/"
   },
@@ -1313,7 +1313,7 @@ var moviesList = [
     "Runtime (mins)": 129,
     "Year": 2002,
     "Genres": "crime, drama, thriller",
-    "Num. Votes": 50335,
+    "Num. Votes": 50380,
     "Release Date (month/day/year)": "2002-03-29",
     "URL": "http://www.imdb.com/title/tt0310775/"
   },
@@ -1331,7 +1331,7 @@ var moviesList = [
     "Runtime (mins)": 115,
     "Year": 2005,
     "Genres": "crime, drama",
-    "Num. Votes": 58359,
+    "Num. Votes": 58403,
     "Release Date (month/day/year)": "2005-07-29",
     "URL": "http://www.imdb.com/title/tt0451094/"
   },
@@ -1349,7 +1349,7 @@ var moviesList = [
     "Runtime (mins)": 160,
     "Year": 1984,
     "Genres": "biography, drama, history, music",
-    "Num. Votes": 297115,
+    "Num. Votes": 297408,
     "Release Date (month/day/year)": "1984-09-06",
     "URL": "http://www.imdb.com/title/tt0086879/"
   },
@@ -1367,7 +1367,7 @@ var moviesList = [
     "Runtime (mins)": 96,
     "Year": 1998,
     "Genres": "horror, mystery",
-    "Num. Votes": 54162,
+    "Num. Votes": 54194,
     "Release Date (month/day/year)": "1998-01-31",
     "URL": "http://www.imdb.com/title/tt0178868/"
   },
@@ -1385,7 +1385,7 @@ var moviesList = [
     "Runtime (mins)": 170,
     "Year": 1995,
     "Genres": "action, crime, drama, thriller",
-    "Num. Votes": 467418,
+    "Num. Votes": 467822,
     "Release Date (month/day/year)": "1995-12-06",
     "URL": "http://www.imdb.com/title/tt0113277/"
   },
@@ -1403,7 +1403,7 @@ var moviesList = [
     "Runtime (mins)": 137,
     "Year": 2016,
     "Genres": "drama",
-    "Num. Votes": 155084,
+    "Num. Votes": 155810,
     "Release Date (month/day/year)": "2016-01-23",
     "URL": "http://www.imdb.com/title/tt4034228/"
   },
@@ -1421,7 +1421,7 @@ var moviesList = [
     "Runtime (mins)": 116,
     "Year": 2016,
     "Genres": "crime, drama, romance, thriller",
-    "Num. Votes": 146666,
+    "Num. Votes": 147683,
     "Release Date (month/day/year)": "2016-09-02",
     "URL": "http://www.imdb.com/title/tt4550098/"
   },
@@ -1435,11 +1435,11 @@ var moviesList = [
     "Title type": "Feature Film",
     "Directors": "Brad Furman",
     "You rated": "",
-    "IMDb Rating": 7.1,
+    "IMDb Rating": 7,
     "Runtime (mins)": 127,
     "Year": 2016,
     "Genres": "biography, crime, drama, thriller",
-    "Num. Votes": 48958,
+    "Num. Votes": 49164,
     "Release Date (month/day/year)": "2016-07-06",
     "URL": "http://www.imdb.com/title/tt1355631/"
   },
@@ -1457,7 +1457,7 @@ var moviesList = [
     "Runtime (mins)": 128,
     "Year": 2016,
     "Genres": "comedy, drama, music, musical, romance",
-    "Num. Votes": 299339,
+    "Num. Votes": 300660,
     "Release Date (month/day/year)": "2016-08-31",
     "URL": "http://www.imdb.com/title/tt3783958/"
   },
@@ -1475,30 +1475,12 @@ var moviesList = [
     "Runtime (mins)": 118,
     "Year": 2016,
     "Genres": "biography, drama",
-    "Num. Votes": 128832,
+    "Num. Votes": 129605,
     "Release Date (month/day/year)": "2016-09-10",
     "URL": "http://www.imdb.com/title/tt3741834/"
   },
   {
     "position": 83,
-    "const": "tt4846340",
-    "created": "Wed Mar  1 17:24:41 2017",
-    "modified": "Wed Mar  1 17:24:41 2017",
-    "description": "",
-    "Title": "Estrelas Além do Tempo",
-    "Title type": "Feature Film",
-    "Directors": "Theodore Melfi",
-    "You rated": "",
-    "IMDb Rating": 7.8,
-    "Runtime (mins)": 127,
-    "Year": 2016,
-    "Genres": "biography, drama, history",
-    "Num. Votes": 116117,
-    "Release Date (month/day/year)": "2016-12-25",
-    "URL": "http://www.imdb.com/title/tt4846340/"
-  },
-  {
-    "position": 84,
     "const": "tt2119532",
     "created": "Wed Mar  1 17:24:58 2017",
     "modified": "Wed Mar  1 17:24:58 2017",
@@ -1511,12 +1493,12 @@ var moviesList = [
     "Runtime (mins)": 139,
     "Year": 2016,
     "Genres": "biography, drama, history, war",
-    "Num. Votes": 254919,
+    "Num. Votes": 256366,
     "Release Date (month/day/year)": "2016-09-04",
     "URL": "http://www.imdb.com/title/tt2119532/"
   },
   {
-    "position": 85,
+    "position": 84,
     "const": "tt5275892",
     "created": "Tue Mar  7 10:55:39 2017",
     "modified": "Tue Mar  7 10:55:39 2017",
@@ -1529,12 +1511,12 @@ var moviesList = [
     "Runtime (mins)": 467,
     "Year": 2016,
     "Genres": "documentary, biography, crime, history",
-    "Num. Votes": 11595,
+    "Num. Votes": 11639,
     "Release Date (month/day/year)": "2016-01-22",
     "URL": "http://www.imdb.com/title/tt5275892/"
   },
   {
-    "position": 86,
+    "position": 85,
     "const": "tt2763304",
     "created": "Mon Mar 13 06:34:53 2017",
     "modified": "Mon Mar 13 06:34:53 2017",
@@ -1547,12 +1529,12 @@ var moviesList = [
     "Runtime (mins)": 117,
     "Year": 2017,
     "Genres": "drama",
-    "Num. Votes": 60793,
+    "Num. Votes": 61270,
     "Release Date (month/day/year)": "2017-01-22",
     "URL": "http://www.imdb.com/title/tt2763304/"
   },
   {
-    "position": 87,
+    "position": 86,
     "const": "tt0211915",
     "created": "Fri Mar 17 03:38:18 2017",
     "modified": "Fri Mar 17 03:38:18 2017",
@@ -1565,12 +1547,12 @@ var moviesList = [
     "Runtime (mins)": 122,
     "Year": 2001,
     "Genres": "comedy, romance",
-    "Num. Votes": 583579,
+    "Num. Votes": 584120,
     "Release Date (month/day/year)": "2001-04-25",
     "URL": "http://www.imdb.com/title/tt0211915/"
   },
   {
-    "position": 88,
+    "position": 87,
     "const": "tt1860357",
     "created": "Sat Mar 25 05:05:15 2017",
     "modified": "Sat Mar 25 05:05:15 2017",
@@ -1583,12 +1565,12 @@ var moviesList = [
     "Runtime (mins)": 107,
     "Year": 2016,
     "Genres": "action, drama, thriller",
-    "Num. Votes": 102014,
+    "Num. Votes": 102409,
     "Release Date (month/day/year)": "2016-09-13",
     "URL": "http://www.imdb.com/title/tt1860357/"
   },
   {
-    "position": 89,
+    "position": 88,
     "const": "tt4540710",
     "created": "Sat Mar 25 05:07:10 2017",
     "modified": "Sat Mar 25 05:07:10 2017",
@@ -1601,12 +1583,12 @@ var moviesList = [
     "Runtime (mins)": 132,
     "Year": 2016,
     "Genres": "drama, thriller",
-    "Num. Votes": 26174,
+    "Num. Votes": 26420,
     "Release Date (month/day/year)": "2016-11-11",
     "URL": "http://www.imdb.com/title/tt4540710/"
   },
   {
-    "position": 90,
+    "position": 89,
     "const": "tt5186714",
     "created": "Sat Mar 25 05:10:28 2017",
     "modified": "Sat Mar 25 05:10:28 2017",
@@ -1619,12 +1601,12 @@ var moviesList = [
     "Runtime (mins)": 124,
     "Year": 2016,
     "Genres": "drama, thriller",
-    "Num. Votes": 27466,
+    "Num. Votes": 27650,
     "Release Date (month/day/year)": "2016-05-21",
     "URL": "http://www.imdb.com/title/tt5186714/"
   },
   {
-    "position": 91,
+    "position": 90,
     "const": "tt3841424",
     "created": "Sat Mar 25 05:11:15 2017",
     "modified": "Sat Mar 25 05:11:15 2017",
@@ -1637,12 +1619,12 @@ var moviesList = [
     "Runtime (mins)": 100,
     "Year": 2015,
     "Genres": "drama, history, war",
-    "Num. Votes": 16620,
+    "Num. Votes": 16790,
     "Release Date (month/day/year)": "2015-09-10",
     "URL": "http://www.imdb.com/title/tt3841424/"
   },
   {
-    "position": 92,
+    "position": 91,
     "const": "tt3666024",
     "created": "Sat Mar 25 05:26:18 2017",
     "modified": "Sat Mar 25 05:26:18 2017",
@@ -1655,12 +1637,12 @@ var moviesList = [
     "Runtime (mins)": 80,
     "Year": 2016,
     "Genres": "animation, fantasy",
-    "Num. Votes": 15011,
+    "Num. Votes": 15122,
     "Release Date (month/day/year)": "2016-05-18",
     "URL": "http://www.imdb.com/title/tt3666024/"
   },
   {
-    "position": 93,
+    "position": 92,
     "const": "tt4048272",
     "created": "Sat Mar 25 05:27:07 2017",
     "modified": "Sat Mar 25 05:27:07 2017",
@@ -1673,12 +1655,12 @@ var moviesList = [
     "Runtime (mins)": 162,
     "Year": 2016,
     "Genres": "comedy, drama",
-    "Num. Votes": 28141,
+    "Num. Votes": 28280,
     "Release Date (month/day/year)": "2016-05-14",
     "URL": "http://www.imdb.com/title/tt4048272/"
   },
   {
-    "position": 94,
+    "position": 93,
     "const": "tt0077928",
     "created": "Sun Mar 26 11:52:35 2017",
     "modified": "Sun Mar 26 11:52:35 2017",
@@ -1691,12 +1673,12 @@ var moviesList = [
     "Runtime (mins)": 121,
     "Year": 1978,
     "Genres": "biography, crime, drama, thriller",
-    "Num. Votes": 58796,
+    "Num. Votes": 58838,
     "Release Date (month/day/year)": "1978-05-18",
     "URL": "http://www.imdb.com/title/tt0077928/"
   },
   {
-    "position": 95,
+    "position": 94,
     "const": "tt1392214",
     "created": "Sun Mar 26 12:03:58 2017",
     "modified": "Sun Mar 26 12:03:58 2017",
@@ -1709,12 +1691,12 @@ var moviesList = [
     "Runtime (mins)": 153,
     "Year": 2013,
     "Genres": "crime, drama, mystery, thriller",
-    "Num. Votes": 445132,
+    "Num. Votes": 445763,
     "Release Date (month/day/year)": "2013-08-30",
     "URL": "http://www.imdb.com/title/tt1392214/"
   },
   {
-    "position": 96,
+    "position": 95,
     "const": "tt1907668",
     "created": "Sun Mar 26 12:05:23 2017",
     "modified": "Sun Mar 26 12:05:23 2017",
@@ -1727,12 +1709,12 @@ var moviesList = [
     "Runtime (mins)": 138,
     "Year": 2012,
     "Genres": "drama, thriller",
-    "Num. Votes": 279861,
+    "Num. Votes": 280018,
     "Release Date (month/day/year)": "2012-10-14",
     "URL": "http://www.imdb.com/title/tt1907668/"
   },
   {
-    "position": 97,
+    "position": 96,
     "const": "tt0120735",
     "created": "Sun Mar 26 12:06:32 2017",
     "modified": "Sun Mar 26 12:06:32 2017",
@@ -1745,12 +1727,12 @@ var moviesList = [
     "Runtime (mins)": 107,
     "Year": 1998,
     "Genres": "comedy, crime",
-    "Num. Votes": 447946,
+    "Num. Votes": 448319,
     "Release Date (month/day/year)": "1998-08-23",
     "URL": "http://www.imdb.com/title/tt0120735/"
   },
   {
-    "position": 98,
+    "position": 97,
     "const": "tt1942884",
     "created": "Sun Mar 26 12:11:10 2017",
     "modified": "Sun Mar 26 12:11:10 2017",
@@ -1763,12 +1745,12 @@ var moviesList = [
     "Runtime (mins)": 94,
     "Year": 2012,
     "Genres": "documentary, drama",
-    "Num. Votes": 18714,
+    "Num. Votes": 18728,
     "Release Date (month/day/year)": "2012-01-20",
     "URL": "http://www.imdb.com/title/tt1942884/"
   },
   {
-    "position": 99,
+    "position": 98,
     "const": "tt0454976",
     "created": "Sun Mar 26 12:11:53 2017",
     "modified": "Sun Mar 26 12:11:53 2017",
@@ -1781,12 +1763,12 @@ var moviesList = [
     "Runtime (mins)": 90,
     "Year": 2008,
     "Genres": "documentary, sport",
-    "Num. Votes": 4871,
+    "Num. Votes": 4873,
     "Release Date (month/day/year)": "2008-05-20",
     "URL": "http://www.imdb.com/title/tt0454976/"
   },
   {
-    "position": 100,
+    "position": 99,
     "const": "tt0100054",
     "created": "Wed Apr  5 20:40:15 2017",
     "modified": "Wed Apr  5 20:40:15 2017",
@@ -1799,12 +1781,12 @@ var moviesList = [
     "Runtime (mins)": 90,
     "Year": 1990,
     "Genres": "adventure, drama, thriller",
-    "Num. Votes": 23849,
+    "Num. Votes": 23878,
     "Release Date (month/day/year)": "1990-03-16",
     "URL": "http://www.imdb.com/title/tt0100054/"
   },
   {
-    "position": 101,
+    "position": 100,
     "const": "tt4606514",
     "created": "Fri Apr  7 17:37:14 2017",
     "modified": "Fri Apr  7 17:37:14 2017",
@@ -1813,16 +1795,16 @@ var moviesList = [
     "Title type": "Documentary",
     "Directors": "Ron Scalpello",
     "You rated": "",
-    "IMDb Rating": 7.1,
+    "IMDb Rating": 7,
     "Runtime (mins)": 97,
     "Year": 2016,
     "Genres": "documentary, biography, sport",
-    "Num. Votes": 246,
+    "Num. Votes": 248,
     "Release Date (month/day/year)": "2016-05-27",
     "URL": "http://www.imdb.com/title/tt4606514/"
   },
   {
-    "position": 102,
+    "position": 101,
     "const": "tt1648190",
     "created": "Thu May  4 16:00:18 2017",
     "modified": "Thu May  4 16:00:18 2017",
@@ -1835,12 +1817,12 @@ var moviesList = [
     "Runtime (mins)": 95,
     "Year": 2017,
     "Genres": "action, adventure, fantasy, horror, sci_fi, western",
-    "Num. Votes": 23140,
+    "Num. Votes": 24539,
     "Release Date (month/day/year)": "2017-08-03",
     "URL": "http://www.imdb.com/title/tt1648190/"
   },
   {
-    "position": 103,
+    "position": 102,
     "const": "tt1031952",
     "created": "Sun May 28 16:26:07 2017",
     "modified": "Sun May 28 16:26:07 2017",
@@ -1858,7 +1840,7 @@ var moviesList = [
     "URL": "http://www.imdb.com/title/tt1031952/"
   },
   {
-    "position": 104,
+    "position": 103,
     "const": "tt5013056",
     "created": "Thu Jul 27 06:49:44 2017",
     "modified": "Thu Jul 27 06:49:44 2017",
@@ -1871,12 +1853,12 @@ var moviesList = [
     "Runtime (mins)": 106,
     "Year": 2017,
     "Genres": "action, drama, history, thriller, war",
-    "Num. Votes": 198881,
+    "Num. Votes": 204413,
     "Release Date (month/day/year)": "2017-07-13",
     "URL": "http://www.imdb.com/title/tt5013056/"
   },
   {
-    "position": 105,
+    "position": 104,
     "const": "tt5700672",
     "created": "Mon Sep  4 06:53:03 2017",
     "modified": "Mon Sep  4 06:53:03 2017",
@@ -1888,10 +1870,28 @@ var moviesList = [
     "IMDb Rating": 7.5,
     "Runtime (mins)": 118,
     "Year": 2016,
-    "Genres": "action, drama, horror, thriller",
-    "Num. Votes": 70291,
+    "Genres": "drama, horror, thriller",
+    "Num. Votes": 70742,
     "Release Date (month/day/year)": "2016-05-13",
     "URL": "http://www.imdb.com/title/tt5700672/"
+  },
+  {
+    "position": 105,
+    "const": "tt2406566",
+    "created": "Mon Sep  4 12:35:24 2017",
+    "modified": "Mon Sep  4 12:35:24 2017",
+    "description": "",
+    "Title": "Atômica",
+    "Title type": "Feature Film",
+    "Directors": "David Leitch",
+    "You rated": "",
+    "IMDb Rating": 7.1,
+    "Runtime (mins)": 115,
+    "Year": 2017,
+    "Genres": "action, mystery, thriller",
+    "Num. Votes": 33712,
+    "Release Date (month/day/year)": "2017-03-12",
+    "URL": "http://www.imdb.com/title/tt2406566/"
   }
 ]
 
